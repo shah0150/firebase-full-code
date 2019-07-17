@@ -1,0 +1,19 @@
+{
+    "users" : [ 
+       {"name": "Adesh Shah",
+         "age" : 26,
+         "email" : "shaha@email.com"
+       },
+       {"name":"Mohammed Rafi",
+         "age" : 56,
+         "email" : "mrafi@email.com"
+       },
+       {"name":"Raja Tamil",
+         "age" : 31,
+         "email" : "rtamil@email.com"
+       },
+       { "name":"Sundar Pichai",
+         "age" : 42,
+         "email" : "spichai@email.com"
+       }]
+  }

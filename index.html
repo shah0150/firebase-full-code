@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Web App</title>
+    <link rel="stylesheet" href="app.js"/>
+</head>
+<body>
+    <h1>Read Data</h1>
+ 
+    <ul id="userList"></ul>
+   
+   <div id="userDetail">
+    <p >Name :<strong class="detailName"></strong></p>
+    <p >Age: <strong class="detailAge"></strong></p>
+    <p >Email: <strong class="detailEmail"></strong></p>
+    </div>
+    
+    <!-- firebase sdk link goes here -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
